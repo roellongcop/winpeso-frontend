@@ -1,0 +1,373 @@
+.cta-holder {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    z-index: 2;
+}
+
+.hp-cta {
+    margin-top: 30px;
+}
+
+.ip-banner {
+    position: relative;
+    width: 100%;
+}
+
+.ip-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.7+0,0+85 */
+    /* background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0) 100%); */
+    /* FF3.6-15 */
+    /* background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0) 100%); */
+    /* Chrome10-25,Safari5.1-6 */
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0) 100%); */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#00000000', GradientType=0); */
+    /* IE6-9 */
+}
+
+.ip-banner canvas {
+    display: block;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    min-height: 228px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ip-page-title {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 0 50px;
+}
+
+.ip-page-title .global-title {
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.ip-banner h1 {
+    font: normal normal 600 89px/133px Poppins;
+}
+
+.ip-banner h3 {
+    font: normal normal 800 48px/72px Poppins;
+}
+
+
+.ip-main-container {
+    background: #021823 0% 0.5 no-repeat;
+    border-radius: 34px;
+    opacity: 1;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 50px 15px;
+    margin-top: -30px;
+}
+
+.ip-main-game-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    padding: 15px;
+    display: flex;
+    background: transparent linear-gradient(180deg, #4CB1A0 0%, #144B45 8%, #022123 100%) 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+}
+
+.ip-main-game-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ip-main-game-search {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100%;
+    max-width: 246px;
+}
+
+.ip-main-game-search form {
+    position: relative;
+    display:-webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+}
+
+.ip-main-game-search .ip-main-game-search-field {
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    width: 100%;
+}
+
+.ip-main-game-search .ip-main-game-search-submit {
+    position: absolute;
+    z-index: 2;
+    right: 2px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.ip-main-game-search .ip-main-game-search-submit button {
+    appearance: none;
+    border: 0px;
+    background: none;
+    opacity: 1;
+    transition: all ease .4s;
+}
+
+.ip-main-game-search .ip-main-game-search-submit button:hover{
+	opacity: 0.7;
+}
+
+.ip-main-game-search-field input[type="text"] {
+    background: #131313 0% 0% no-repeat padding-box;
+    border: 1px solid #35877A;
+    border-radius: 18px;
+    width: 100%;
+    color: #ffffff;
+    padding: 5px 27px 5px 10px;
+}
+
+.ip-main-game-search-submit i.magnifying-glass::before {
+    width: 16px;
+    height: 16px;
+}
+
+.ip-main-game-nav ul,
+.ip-main-game-subnav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ip-main-game-nav ul li,
+.ip-main-game-subnav ul li {
+    position: relative;
+    padding: 0 25px;
+}
+
+.ip-main-game-nav ul li:first-child,
+.ip-main-game-subnav ul li:first-child {
+    margin-left: 0;
+}
+
+.ip-main-game-nav ul li a,
+.ip-main-game-subnav ul li a {
+    display: flex;
+    font-family: 'Poppins';
+    font-size: 13px;
+    line-height: 1.5rem;
+    letter-spacing: 0.08em;
+    transition: all 0.3s ease-in-out;
+}
+
+.ip-main-game-nav ul li a i,
+.ip-main-game-subnav ul li a i {
+    margin-right: 5px;
+}
+
+.ip-main-game-nav ul li {
+    padding-bottom: 15px;
+    margin-bottom: -15px;
+}
+.ip-main-game-nav ul li:after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 4px;
+    background: #11FBBB;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+.ip-main-game-nav ul li:hover:after {
+    opacity: 1;
+}
+
+.ip-main-game-subnav ul li a:hover {
+    color: #1EFF87;
+}
+
+.ip-main-game-subnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.ip-main-game-subnav {
+    background: #010D0B 0% 0% no-repeat padding-box;
+}
+
+.ip-main-game-holder {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ip-main-game-holder .ip-main-game-item {
+    font-size: 0;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% / 5);
+}
+
+.ip-main-game-item .ip-main-game-item-inner {
+    color: #ffffff;
+}
+
+.ip-main-game-item-inner .ip-main-game-item-img img {
+    border: aliceblue;
+    border-radius: 19px;
+}
+
+.ip-main-game-item-inner .ip-main-game-text {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.ip-main-game-item-inner .ip-main-game-name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: .025em;
+}
+
+/*******************************************************
+ *
+ * Mobile styles and other media queries
+ *
+ *******************************************************/
+
+@media only screen and (max-width: 1600px) {
+    .global-title h1 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+}
+ 
+/* iPad(landscape) | iPad(landscape) | Galaxy Tab 4 (landscape) | Galaxy Tab 3 (landscape) */ 
+
+@media only screen and (max-width: 1366px) {
+    .global-title h1 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+
+    .ip-main-game-search {
+        position: relative;
+        top: 0;
+    }
+} 
+
+@media only screen and (max-width: 1199px) {
+    .ip-banner canvas {
+        background-size: cover;
+    }
+    
+    .global-title h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .ip-option-item {
+        width: 100%;
+    }
+
+    .ip-option-item .ip-option-details {
+        width: 66%;
+    }
+} 
+
+/* iPad(portrait) | Galaxy Tab 4(portrait)  */ 
+@media only screen and (max-width: 991px) {
+
+    .global-title h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .ip-banner h3 {
+        font-size: 30px;
+    }
+
+    .ip-main-game-search {
+        margin-top: 10px;
+    }
+
+    .ip-main-container {
+        margin-top: -80px;
+    }
+
+    .ip-main-game-holder .ip-main-game-item {
+        width: calc(100% / 3);
+    }
+
+    .ip-main-game-item-inner .ip-main-game-name {
+        font-size: 12px;
+    }
+
+} 
+
+/* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */ 
+@media only screen and (max-width: 767px) {
+    .ip-main-game-holder .ip-main-game-item {
+        width: calc(100% / 2);
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .ip-main-container {
+        padding: 50px 0;
+    }
+}
+
+/* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */ 
+@media only screen and (max-width: 480px) {
+    .global-title h1 {
+        font-size: 40px;
+    }
+}

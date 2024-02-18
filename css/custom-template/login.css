@@ -1,0 +1,317 @@
+.ip-modal .modal-content {
+    background: #1E1E1E;
+    border-radius: 25px;
+    width: 485px;    
+}
+
+.ip-modal .modal-content .modal-header,
+.ip-modal .modal-content .modal-footer {
+    border: 0;
+}
+
+.ip-modal .modal-content .modal-body {
+    padding: 20px 41px;
+}
+
+.ip-logo-login {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+
+#ip-login-tabs {
+    border-bottom: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;    
+}
+
+#ip-login-tabs .nav-link.active {
+    background: transparent;    
+    color: #ffffff;    
+    font-size: 16px;    
+    border: 0;    
+    border-bottom: 5px solid #11FBBB !important;
+    margin-bottom: -1px;
+    padding-bottom: 15px;    
+}
+
+#ip-login-tabs .nav-link {
+    border: 0;    
+    border-bottom: 5px solid transparent !important;    
+    color: #ffffff;    
+    font-size: 16px; 
+    margin-bottom: -1px;    
+    padding-bottom: 15px;   
+
+}
+
+
+.ip-modal .modal-content .modal-body form {
+    margin-bottom: 20px;
+}
+
+.ip-modal .modal-content .modal-body p {
+    color: #A2A2A2;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.ip-modal .modal-content .ip-login-row {
+    margin-bottom: 10px;
+}
+.ip-modal .modal-content .ip-login-group {
+    background: #141414;
+    border: 1px solid #191919;
+    border-radius: 10px;
+    padding: 10px 0;
+    display: flex;
+    transition: .2s ease;      
+}
+
+.bordergreen {
+    border: 1px solid #11FBBB !important;
+}
+
+.border-black {
+    border: 1px solid #191919;
+
+}
+
+.ip-modal .modal-content .ip-login-group:hover {
+    border: 1px solid #11FBBB;
+    transition: .2s ease;      
+}
+
+.ip-modal .modal-content div.ip-login-text {
+    background: #141414;
+    border: 0;
+    border-right: 1px solid #4A4A4A;
+    border-radius: 0px;
+    color: #A2A2A2;
+    font-size: 16px;
+    width: 119px;
+    padding: 10px 18px;
+    text-wrap: nowrap;
+}
+
+.ip-modal .modal-content input.ip-login-textfield {
+    background: #141414; 
+    border: 0;    
+    color: #A2A2A2;
+    padding: 0 20px;
+    width: 282px;
+}
+
+/*
+
+.ip-login-remember {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;    
+}
+
+
+.ip-login-remember .round {
+  position: relative;
+}
+
+.ip-login-remember .round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 13px;
+}
+
+.ip-login-remember .round label:after {
+    border: 0;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 1px;
+    opacity: 0;
+    position: absolute;
+    top: 2px;
+    transform: rotate(-45deg);
+    width: 10px;
+}
+
+.ip-login-remember .round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.ip-login-remember .round input[type="checkbox"]:checked + label {
+  background-color: #11fbbb;
+  border-color: #606060;
+}
+
+.ip-login-remember .round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+
+.ip-login-remember span {
+    margin-left: 10px;
+    color: #A2A2A2;    
+}
+
+
+
+.ip-login-terms {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;    
+}
+
+
+.ip-login-terms .round {
+  position: relative;
+}
+
+.ip-login-terms .round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 13px;
+}
+
+.ip-login-terms .round label:after {
+    border: 0;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 1px;
+    opacity: 0;
+    position: absolute;
+    top: 2px;
+    transform: rotate(-45deg);
+    width: 10px;
+}
+
+.ip-login-terms .round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.ip-login-terms .round input[type="checkbox"]:checked + label {
+  background-color: #11fbbb !important;
+  border-color: #606060;
+}
+
+.ip-login-terms .round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+
+.ip-login-terms span {
+    margin-left: 10px;
+    color: #A2A2A2;    
+}
+*/
+
+
+
+.ip-login-remember,
+.ip-login-terms {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;    
+}
+
+
+.ip-login-remember .round,
+.ip-login-terms .round {
+  position: relative;
+}
+
+.ip-login-remember .round label,
+.ip-login-terms .round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 13px;
+}
+
+.ip-login-remember .round label:after,
+.ip-login-terms .round label:after {
+    border: 0;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 1px;
+    opacity: 0;
+    position: absolute;
+    top: 2px;
+    transform: rotate(-45deg);
+    width: 10px;
+}
+
+.ip-login-remember .round input[type="checkbox"],
+.ip-login-terms .round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.ip-login-remember .round input[type="checkbox"]:checked + label,
+.ip-login-terms .round input[type="checkbox"]:checked + label {
+  background-color: #11fbbb;
+  border-color: #606060;
+}
+
+.ip-login-remember .round input[type="checkbox"]:checked + label:after,
+.ip-login-terms .round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+
+.ip-login-remember span,
+.ip-login-terms span {
+    margin-left: 10px;
+    color: #A2A2A2;    
+}
+
+
+.ip-login-terms a {
+    color: #4BA160;
+}
+
+.ip-modal .modal-content button.ip-login-btn {
+    background: #A2A2A2;
+    border-radius: 10px;
+    border: 1px solid #606060;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    width: 100%;  
+    transition: .1s ease;  
+}
+
+
+.ip-modal .modal-content button.ip-login-btn:hover {
+    background: #4BA160;
+    border: 1px solid #11FBBB;
+    transition: .1s ease;      
+}
+
+.ip-modal .modal-content p.ip-forgot {
+    margin: 0;
+}
